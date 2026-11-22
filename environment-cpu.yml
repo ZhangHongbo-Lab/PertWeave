@@ -1,0 +1,13 @@
+# Linux/Windows x86_64. Run conda env create -f environment-cpu.yml in the repository root.
+name: pertweave-cpu
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11.10
+  - pip=25.3
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - torch==2.5.1+cpu
+      - torchvision==0.20.1+cpu
+      - -r requirements.txt

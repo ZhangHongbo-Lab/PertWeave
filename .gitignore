@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.pth
+*.h5ad
+*.pickle
+*.npy
+*.npz
+data/
+runs/
+github_ver_refactored/
+unknown_metric_runs/
+unknown_metric_processed_cache/

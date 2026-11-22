@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+scikit-learn
+anndata
+h5py
+torch
+torchmetrics
+timm
+matplotlib
+seaborn
+umap-learn

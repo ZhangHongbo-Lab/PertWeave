@@ -1,0 +1,13 @@
+# Linux/Windows x86_64. Run conda env create -f environment.yml in the repository root.
+name: pertweave-cu121
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11.10
+  - pip=25.3
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu121
+      - torch==2.5.1+cu121
+      - torchvision==0.20.1+cu121
+      - -r requirements.txt
